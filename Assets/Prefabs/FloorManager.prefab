@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 4818889898788957997}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.17889, y: 0, z: -9.52949}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floorPrefab: {fileID: 8481500040319310941, guid: 2bf9715415642404194c6e76986dfbd9, type: 3}
+  maxAnimatingTiles: 10
   moveCurve:
     serializedVersion: 2
     m_Curve:
